@@ -13,6 +13,21 @@
 		234DF4C02125663F00D3D61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234DF4BF2125663F00D3D61B /* Assets.xcassets */; };
 		234DF4C32125663F00D3D61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234DF4C12125663F00D3D61B /* LaunchScreen.storyboard */; };
 		234DF4C62125663F00D3D61B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF4C52125663F00D3D61B /* main.m */; };
+		234DF4D62125706F00D3D61B /* ZGDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF4D52125706F00D3D61B /* ZGDataBaseManager.m */; };
+		234DF4D92125799700D3D61B /* FMDatabase+ZGMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF4D82125799700D3D61B /* FMDatabase+ZGMapping.m */; };
+		2386CFBF21267B86007F8ACF /* ZGPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFBE21267B86007F8ACF /* ZGPresenter.m */; };
+		2386CFC421267F26007F8ACF /* ZGHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFC321267F26007F8ACF /* ZGHttpClient.m */; };
+		2386CFC72126A5E2007F8ACF /* ZGHttpPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFC62126A5E2007F8ACF /* ZGHttpPresenter.m */; };
+		2386CFCE2126ABAD007F8ACF /* ZGMineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFCD2126ABAD007F8ACF /* ZGMineModel.m */; };
+		2386CFD12126AC04007F8ACF /* ZGMineMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFD02126AC04007F8ACF /* ZGMineMainView.m */; };
+		2386CFD42126AC33007F8ACF /* ZGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFD32126AC33007F8ACF /* ZGMineController.m */; };
+		2386CFD82126B0FE007F8ACF /* ZGMinePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFD72126B0FE007F8ACF /* ZGMinePresenter.m */; };
+		2386CFE02126C0DD007F8ACF /* ZGHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFDF2126C0DD007F8ACF /* ZGHomeModel.m */; };
+		2386CFE32126C4DC007F8ACF /* ZGHomeBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386CFE22126C4DC007F8ACF /* ZGHomeBannerModel.m */; };
+		23FC92B3212A4B9D003B8416 /* ZGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC92B2212A4B9D003B8416 /* ZGHomeController.m */; };
+		23FC92B7212A4BFE003B8416 /* ZGHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC92B6212A4BFE003B8416 /* ZGHomePresenter.m */; };
+		23FC92BA212A6BCD003B8416 /* ZGHomeMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FC92B9212A6BCD003B8416 /* ZGHomeMainView.m */; };
+		AE94EC33FC9471F79BD654D5 /* libPods-ZGMVP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D0C2AAFFD391CB015B3D9F /* libPods-ZGMVP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,41 @@
 		234DF4C22125663F00D3D61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		234DF4C42125663F00D3D61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		234DF4C52125663F00D3D61B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234DF4D42125706F00D3D61B /* ZGDataBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGDataBaseManager.h; sourceTree = "<group>"; };
+		234DF4D52125706F00D3D61B /* ZGDataBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDataBaseManager.m; sourceTree = "<group>"; };
+		234DF4D72125799700D3D61B /* FMDatabase+ZGMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+ZGMapping.h"; sourceTree = "<group>"; };
+		234DF4D82125799700D3D61B /* FMDatabase+ZGMapping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+ZGMapping.m"; sourceTree = "<group>"; };
+		2386CFBC2126798C007F8ACF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2386CFBD21267B86007F8ACF /* ZGPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPresenter.h; sourceTree = "<group>"; };
+		2386CFBE21267B86007F8ACF /* ZGPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPresenter.m; sourceTree = "<group>"; };
+		2386CFC121267DD5007F8ACF /* ZGHttpResponseHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHttpResponseHandle.h; sourceTree = "<group>"; };
+		2386CFC221267F26007F8ACF /* ZGHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHttpClient.h; sourceTree = "<group>"; };
+		2386CFC321267F26007F8ACF /* ZGHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHttpClient.m; sourceTree = "<group>"; };
+		2386CFC52126A5E2007F8ACF /* ZGHttpPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHttpPresenter.h; sourceTree = "<group>"; };
+		2386CFC62126A5E2007F8ACF /* ZGHttpPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHttpPresenter.m; sourceTree = "<group>"; };
+		2386CFCC2126ABAD007F8ACF /* ZGMineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineModel.h; sourceTree = "<group>"; };
+		2386CFCD2126ABAD007F8ACF /* ZGMineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineModel.m; sourceTree = "<group>"; };
+		2386CFCF2126AC04007F8ACF /* ZGMineMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineMainView.h; sourceTree = "<group>"; };
+		2386CFD02126AC04007F8ACF /* ZGMineMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineMainView.m; sourceTree = "<group>"; };
+		2386CFD22126AC33007F8ACF /* ZGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineController.h; sourceTree = "<group>"; };
+		2386CFD32126AC33007F8ACF /* ZGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineController.m; sourceTree = "<group>"; };
+		2386CFD52126AEC7007F8ACF /* ZGMineViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineViewProtocol.h; sourceTree = "<group>"; };
+		2386CFD62126B0FE007F8ACF /* ZGMinePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMinePresenter.h; sourceTree = "<group>"; };
+		2386CFD72126B0FE007F8ACF /* ZGMinePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMinePresenter.m; sourceTree = "<group>"; };
+		2386CFDE2126C0DD007F8ACF /* ZGHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeModel.h; sourceTree = "<group>"; };
+		2386CFDF2126C0DD007F8ACF /* ZGHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomeModel.m; sourceTree = "<group>"; };
+		2386CFE12126C4DC007F8ACF /* ZGHomeBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeBannerModel.h; sourceTree = "<group>"; };
+		2386CFE22126C4DC007F8ACF /* ZGHomeBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomeBannerModel.m; sourceTree = "<group>"; };
+		23FC92B1212A4B9D003B8416 /* ZGHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeController.h; sourceTree = "<group>"; };
+		23FC92B2212A4B9D003B8416 /* ZGHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomeController.m; sourceTree = "<group>"; };
+		23FC92B4212A4BC2003B8416 /* ZGHomeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeProtocol.h; sourceTree = "<group>"; };
+		23FC92B5212A4BFE003B8416 /* ZGHomePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomePresenter.h; sourceTree = "<group>"; };
+		23FC92B6212A4BFE003B8416 /* ZGHomePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomePresenter.m; sourceTree = "<group>"; };
+		23FC92B8212A6BCD003B8416 /* ZGHomeMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeMainView.h; sourceTree = "<group>"; };
+		23FC92B9212A6BCD003B8416 /* ZGHomeMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomeMainView.m; sourceTree = "<group>"; };
+		3698F3948D98A97FDBCBE770 /* Pods-ZGMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGMVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGMVP/Pods-ZGMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		98D0C2AAFFD391CB015B3D9F /* libPods-ZGMVP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGMVP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DDC07E6E17AC50E3D82344 /* Pods-ZGMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGMVP/Pods-ZGMVP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE94EC33FC9471F79BD654D5 /* libPods-ZGMVP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +95,8 @@
 			children = (
 				234DF4B52125663D00D3D61B /* ZGMVP */,
 				234DF4B42125663D00D3D61B /* Products */,
+				40F31D49F55EC5C40208DE33 /* Pods */,
+				F15893C41971ADDD0CD9857A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +111,202 @@
 		234DF4B52125663D00D3D61B /* ZGMVP */ = {
 			isa = PBXGroup;
 			children = (
-				234DF4B62125663D00D3D61B /* AppDelegate.h */,
-				234DF4B72125663D00D3D61B /* AppDelegate.m */,
-				234DF4B92125663D00D3D61B /* ViewController.h */,
-				234DF4BA2125663D00D3D61B /* ViewController.m */,
-				234DF4BC2125663D00D3D61B /* Main.storyboard */,
-				234DF4BF2125663F00D3D61B /* Assets.xcassets */,
-				234DF4C12125663F00D3D61B /* LaunchScreen.storyboard */,
+				234DF4CC21256E7800D3D61B /* Class */,
+				234DF4D321256E8F00D3D61B /* Other */,
 				234DF4C42125663F00D3D61B /* Info.plist */,
-				234DF4C52125663F00D3D61B /* main.m */,
 			);
 			path = ZGMVP;
+			sourceTree = "<group>";
+		};
+		234DF4CC21256E7800D3D61B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				234DF4CD21256E7800D3D61B /* Home */,
+				234DF4CE21256E7800D3D61B /* Presenter */,
+				234DF4CF21256E7800D3D61B /* NetWork */,
+				234DF4D021256E7800D3D61B /* Manager */,
+				234DF4D121256E7800D3D61B /* Mine */,
+				234DF4D221256E7800D3D61B /* Global */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		234DF4CD21256E7800D3D61B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFDC2126BDBD007F8ACF /* Controller */,
+				2386CFDB2126BDBD007F8ACF /* Dao */,
+				2386CFDD2126BDBD007F8ACF /* Model */,
+				2386CFD92126BDBD007F8ACF /* Presenter */,
+				2386CFDA2126BDBD007F8ACF /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		234DF4CE21256E7800D3D61B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFBD21267B86007F8ACF /* ZGPresenter.h */,
+				2386CFBE21267B86007F8ACF /* ZGPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		234DF4CF21256E7800D3D61B /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFC121267DD5007F8ACF /* ZGHttpResponseHandle.h */,
+				2386CFC221267F26007F8ACF /* ZGHttpClient.h */,
+				2386CFC321267F26007F8ACF /* ZGHttpClient.m */,
+				2386CFC52126A5E2007F8ACF /* ZGHttpPresenter.h */,
+				2386CFC62126A5E2007F8ACF /* ZGHttpPresenter.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		234DF4D021256E7800D3D61B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				234DF4D42125706F00D3D61B /* ZGDataBaseManager.h */,
+				234DF4D52125706F00D3D61B /* ZGDataBaseManager.m */,
+				234DF4D72125799700D3D61B /* FMDatabase+ZGMapping.h */,
+				234DF4D82125799700D3D61B /* FMDatabase+ZGMapping.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		234DF4D121256E7800D3D61B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFCB2126A91C007F8ACF /* Controller */,
+				2386CFC82126A91C007F8ACF /* Model */,
+				2386CFC92126A91C007F8ACF /* Presenter */,
+				2386CFCA2126A91C007F8ACF /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		234DF4D221256E7800D3D61B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFBC2126798C007F8ACF /* PrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		234DF4D321256E8F00D3D61B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				234DF4BC2125663D00D3D61B /* Main.storyboard */,
+				234DF4C12125663F00D3D61B /* LaunchScreen.storyboard */,
+				234DF4C52125663F00D3D61B /* main.m */,
+				234DF4BF2125663F00D3D61B /* Assets.xcassets */,
+				234DF4B92125663D00D3D61B /* ViewController.h */,
+				234DF4BA2125663D00D3D61B /* ViewController.m */,
+				234DF4B62125663D00D3D61B /* AppDelegate.h */,
+				234DF4B72125663D00D3D61B /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2386CFC82126A91C007F8ACF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFCC2126ABAD007F8ACF /* ZGMineModel.h */,
+				2386CFCD2126ABAD007F8ACF /* ZGMineModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2386CFC92126A91C007F8ACF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFD62126B0FE007F8ACF /* ZGMinePresenter.h */,
+				2386CFD72126B0FE007F8ACF /* ZGMinePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2386CFCA2126A91C007F8ACF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFCF2126AC04007F8ACF /* ZGMineMainView.h */,
+				2386CFD02126AC04007F8ACF /* ZGMineMainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2386CFCB2126A91C007F8ACF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFD22126AC33007F8ACF /* ZGMineController.h */,
+				2386CFD32126AC33007F8ACF /* ZGMineController.m */,
+				2386CFD52126AEC7007F8ACF /* ZGMineViewProtocol.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2386CFD92126BDBD007F8ACF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				23FC92B5212A4BFE003B8416 /* ZGHomePresenter.h */,
+				23FC92B6212A4BFE003B8416 /* ZGHomePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2386CFDA2126BDBD007F8ACF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23FC92B8212A6BCD003B8416 /* ZGHomeMainView.h */,
+				23FC92B9212A6BCD003B8416 /* ZGHomeMainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2386CFDB2126BDBD007F8ACF /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		2386CFDC2126BDBD007F8ACF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23FC92B1212A4B9D003B8416 /* ZGHomeController.h */,
+				23FC92B2212A4B9D003B8416 /* ZGHomeController.m */,
+				23FC92B4212A4BC2003B8416 /* ZGHomeProtocol.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2386CFDD2126BDBD007F8ACF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2386CFDE2126C0DD007F8ACF /* ZGHomeModel.h */,
+				2386CFDF2126C0DD007F8ACF /* ZGHomeModel.m */,
+				2386CFE12126C4DC007F8ACF /* ZGHomeBannerModel.h */,
+				2386CFE22126C4DC007F8ACF /* ZGHomeBannerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40F31D49F55EC5C40208DE33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3698F3948D98A97FDBCBE770 /* Pods-ZGMVP.debug.xcconfig */,
+				B7DDC07E6E17AC50E3D82344 /* Pods-ZGMVP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F15893C41971ADDD0CD9857A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D0C2AAFFD391CB015B3D9F /* libPods-ZGMVP.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 234DF4C92125663F00D3D61B /* Build configuration list for PBXNativeTarget "ZGMVP" */;
 			buildPhases = (
+				C89DA0BB9D88B9121426C068 /* [CP] Check Pods Manifest.lock */,
 				234DF4AF2125663D00D3D61B /* Sources */,
 				234DF4B02125663D00D3D61B /* Frameworks */,
 				234DF4B12125663D00D3D61B /* Resources */,
@@ -97,6 +336,7 @@
 		234DF4AB2125663D00D3D61B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZG;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = cn;
 				TargetAttributes = {
@@ -136,6 +376,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C89DA0BB9D88B9121426C068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		234DF4AF2125663D00D3D61B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +404,21 @@
 			files = (
 				234DF4BB2125663D00D3D61B /* ViewController.m in Sources */,
 				234DF4C62125663F00D3D61B /* main.m in Sources */,
+				2386CFC421267F26007F8ACF /* ZGHttpClient.m in Sources */,
+				2386CFE02126C0DD007F8ACF /* ZGHomeModel.m in Sources */,
+				23FC92BA212A6BCD003B8416 /* ZGHomeMainView.m in Sources */,
+				23FC92B3212A4B9D003B8416 /* ZGHomeController.m in Sources */,
 				234DF4B82125663D00D3D61B /* AppDelegate.m in Sources */,
+				2386CFBF21267B86007F8ACF /* ZGPresenter.m in Sources */,
+				2386CFC72126A5E2007F8ACF /* ZGHttpPresenter.m in Sources */,
+				2386CFE32126C4DC007F8ACF /* ZGHomeBannerModel.m in Sources */,
+				2386CFD82126B0FE007F8ACF /* ZGMinePresenter.m in Sources */,
+				2386CFD42126AC33007F8ACF /* ZGMineController.m in Sources */,
+				234DF4D92125799700D3D61B /* FMDatabase+ZGMapping.m in Sources */,
+				2386CFCE2126ABAD007F8ACF /* ZGMineModel.m in Sources */,
+				234DF4D62125706F00D3D61B /* ZGDataBaseManager.m in Sources */,
+				23FC92B7212A4BFE003B8416 /* ZGHomePresenter.m in Sources */,
+				2386CFD12126AC04007F8ACF /* ZGMineMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +556,12 @@
 		};
 		234DF4CA2125663F00D3D61B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3698F3948D98A97FDBCBE770 /* Pods-ZGMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGMVP/Class/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGMVP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +575,12 @@
 		};
 		234DF4CB2125663F00D3D61B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DDC07E6E17AC50E3D82344 /* Pods-ZGMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGMVP/Class/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGMVP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
